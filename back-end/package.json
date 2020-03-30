@@ -1,0 +1,29 @@
+{
+  "name": "use-easyauthn-passwordless-back-end",
+  "version": "1.0.0",
+  "description": "Back-end example how to use EasyAuthn for passwordless login. You also need use-easyauthn-passwordless-front-end for the example. Check README file for more detail.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/easyauthn/use-easyauthn-passwordless.git"
+  },
+  "keywords": [
+    "EasyAuthn"
+  ],
+  "author": "Gogo 008 Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easyauthn/use-easyauthn-passwordless/issues"
+  },
+  "homepage": "https://github.com/easyauthn/use-easyauthn-passwordless#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "easyauthn": "^1.0.0",
+    "express": "^4.17.1",
+    "pg": "^7.18.2",
+    "standard": "^14.3.3"
+  }
+}
